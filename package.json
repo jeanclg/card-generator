@@ -1,0 +1,16 @@
+{
+  "name": "card-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf output && mkdir output && node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^10.0.0",
+    "uuid": "^8.3.2"
+  }
+}
