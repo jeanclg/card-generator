@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf output && mkdir output && node src/index.js"
+    "start": "rm -rf output && mkdir output && node src/index.js",
+    "cluster": "rm -rf output && mkdir output && node src/puppeteerCluster.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^10.0.0",
+    "puppeteer-cluster": "^0.22.0",
     "uuid": "^8.3.2"
   }
 }
